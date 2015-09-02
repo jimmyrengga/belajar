@@ -7,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Pertemuan81 {
     
@@ -73,7 +74,9 @@ public class Pertemuan81 {
     
     
     private static void updatePeserta(Statement statement) throws SQLException {
-        String sql = "update peserta set nama = 'aku' where id = 1";
+        Random rand = new Random();
+        int nextRan = rand.nextInt(100);
+        String sql = "update peserta set nama = 'aku" + nextRan +"' where id = 2";
         statement.executeUpdate(sql);
     }
     
