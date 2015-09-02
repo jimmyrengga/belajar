@@ -1,4 +1,4 @@
-package latihan;
+package latihan.pertemuan7;
 
 import java.io.File;
 import java.io.FileInputStream;

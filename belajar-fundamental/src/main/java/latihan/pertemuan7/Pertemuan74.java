@@ -1,4 +1,4 @@
-package latihan;
+package latihan.pertemuan7;
 
 public class Pertemuan74 {
 
